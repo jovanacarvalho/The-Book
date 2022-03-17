@@ -2,36 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Oswald:wght@700&family=Roboto:wght@300&display=swap");
 
-body {
-  overflow-y: hidden;
-  height: 100vh;
+.initialBackground {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     135deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(255, 102, 196, 1) 0%,
     rgba(0, 212, 255, 1) 100%
-  ) !important;
+  );
   background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 413px) {
-  .secao_cabecalho {
-    background-color: rosybrown;
-    max-width: 100%;
-    padding-left: 12px;
-  }
-  .logo {
-    display: flex;
-    flex-direction: row;
-    width: 80px;
-    justify-content: flex-start;
-  }
-
-  .menu_navegacao {
-    display: flex;
-    justify-content: flex-start;
-  }
 }
 
 .header_class {
