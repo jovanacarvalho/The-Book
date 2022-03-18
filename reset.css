@@ -126,6 +126,14 @@ ins {
   color: #000;
   text-decoration: none;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 /* change colours to suit your needs */
 mark {
   background-color: #ff9;

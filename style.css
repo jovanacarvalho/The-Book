@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Oswald:wght@700&family=Roboto:wght@300&display=swap");
 
-.initialBackground {
+/* Cor de fundo do site */
+
+.BackgroundInicial {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     135deg,
@@ -13,113 +15,60 @@
   background-repeat: no-repeat;
 }
 
-.header_class {
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-}
+/* Seção Cabeçalho */
 
 .secao_cabecalho {
-  display: flex;
-  flex-direction: row;
-  padding: 28px;
-  gap: 500px;
+  width: 100%;
+  padding: 0px 80px;
 }
-
-.menu_navegacao {
+.cabecalho {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  gap: 22px;
-  font-family: Poppins;
-  text-align: center;
-  margin-left: 20px;
 }
 
-.aba_navegacao {
-  background-color: transparent;
-  transition: 0.4s;
-  padding: 10px 12px;
-  border-radius: 10px;
+/* Seção Principal */
+
+.main {
+  width: 100%;
+  padding: 0 80px;
 }
 
-.aba_navegacao:hover {
-  background-color: aliceblue;
-}
-
-.section_principal {
+.secao_principal {
   display: flex;
-  flex-direction: row;
-}
-
-.divisao_principal {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-}
-.div_principal {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .titulo_principal {
-  font-family: Libre Franklin;
-  font-size: 58px;
-  line-height: 82px;
-  color: aliceblue;
-  margin-top: 42px;
-  margin-left: 52px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  color: white;
 }
 
 .subtitulo_principal {
-  font-family: Libre Franklin;
-  font-size: 18px;
-  font-weight: 32px;
+  font-size: 1rem;
+  font-family: sans-serif;
   color: #1b3061;
-  margin-top: 8px;
-  margin-left: 52px;
-  line-height: 32px;
+  margin-top: 0.8rem;
+  line-height: 1.5rem;
 }
 
 .newsletter {
-  margin-top: 22px;
-  margin-left: 52px;
+  margin-top: 0.8rem;
 }
 
-.botao_email {
-  height: 42px;
-  width: 252px;
-  font-family: Libre Franklin;
-  font-size: 16px;
-  color: gray;
-  border: 0;
+.email_principal {
+  width: 280px;
+  height: 30px;
   border-radius: 4px;
-  padding: te;
-}
-
-.botao_email::-webkit-input-placeholder {
-  color: #1b3061;
-  padding-left: 10px;
-}
-.botao_email::-webkit-input-placeholder {
-  color: #1b3061;
-  padding-left: 10px;
+  border: none;
 }
 
 .button_newsletter {
-  font-family: Libre Franklin;
-  font-size: 16px;
-  color: floralwhite;
-  border: none;
+  margin-top: 0.8rem;
   background-color: transparent;
-  margin-top: 12px;
-  cursor: pointer;
-  padding: 8px;
 }
 
-.imagem_crianca {
-  display: flex;
-  flex-direction: column;
-  width: 550px;
-  margin-top: -60px;
+.titulo_button {
 }
